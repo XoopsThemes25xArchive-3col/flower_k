@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+  <table class="toptable" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td>
+      <table border="0" cellpadding="0" cellspacing="0" >
+        <tr>
+          <td>
+<table cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="HeaderLogo">&nbsp;</td>
+              <td id="headerbanner">
+                       <div class="styleSite"><{$xoops_sitename}></div>
+                        <div class="styleTitle"><{$xoops_pagetitle}></div>
+                </td>
+              <td class="HeaderR">&nbsp;</td>
+            </tr>
+          </table></td>
+        </tr>
+</table>
+  <table class="maintable" cellspacing="0">
+    <tr>
+      <td id="leftcolumn">
+      <img src="<{$xoops_imageurl}>images/1.home_03b.gif" width="185" height="122" alt="" />
+</td>
+       <td id="centercolumn">
+ <center>
+	  <div class="styleRed"><{$lang_siteclosemsg}></div><br />
+  <form action="<{$xoops_url}>/user.php" method="post">
+    <table cellspacing="0" align="center" style="border: 1px solid silver; width: 200px;">
+      <tr>
+        <th style="background-color: transparent; color: #000000; padding : 2px; vertical-align : middle;" colspan="2"><{$lang_login}></th>
+      </tr>
+      <tr>
+        <td style="padding: 2px;"><{$lang_username}></td><td style="padding: 2px;"><input type="text" name="uname" size="12" value="" /></td>
+      </tr>
+      <tr>
+        <td style="padding: 2px;"><{$lang_password}></td><td style="padding: 2px;"><input type="password" name="pass" size="12" /></td>
+      </tr>
+      <tr>
+        <td style="padding: 2px;">&nbsp;</td>
+        <td style="padding: 2px;">
+        	<input type="hidden" name="xoops_redirect" value="<{$xoops_requesturi}>" />
+        	<input type="hidden" name="xoops_login" value="1" />
+        	<input type="submit" value="<{$lang_login}>" /></td>
+      </tr>
+    </table>
+  </form>
+</center>
+</td>
+<td id="rightcolumn">
+<img src="<{$xoops_imageurl}>images/1.home_05.gif" width="173" height="122" alt="" />
+</td>
+</html>
